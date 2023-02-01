@@ -142,7 +142,7 @@
             <el-button slot="trigger" size="small" type="primary">选取图片</el-button>
             <el-button style="margin-left: 10px;" size="small" type="success" @click="submitUpload">上传到服务器</el-button>
             <div slot="tip" class="el-upload__tip">只能上传jpg/png/jpeg/gif图片，且不超过5M</div>
-            <img :src="'http://localhost:2020'+form.img" alt="">
+            <img :src="'http://localhost:2023'+form.img" alt="">
           </el-upload>
         </el-form-item>
 
