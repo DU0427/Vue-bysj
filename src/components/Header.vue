@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <img src="../assets/icon.jpg" alt="">
-    <div>学校信息管理系统</div>
+    <div>高校信息管理系统</div>
     <p>欢迎您：</p>
     <span>{{name}}</span>
     <el-dropdown @command="handleCommand">

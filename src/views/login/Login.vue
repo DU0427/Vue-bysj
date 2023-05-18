@@ -3,7 +3,7 @@
       <img src="../../assets/login.jpg" alt="">
       <el-form ref="form" :model="form" label-width="auto" @submit.native.prevent>
         <img src="../../assets/icon.jpg" alt="">
-        <div class="title">学校信息管理系统</div>
+        <div class="title">高校信息管理系统</div>
         <div class="title2">用户登录</div>
         <el-form-item label="用户名：">
           <el-input v-model="form.username" clearable placeholder="请输入用户名"></el-input>
