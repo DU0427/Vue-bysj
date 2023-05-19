@@ -169,20 +169,20 @@ export default {
         hometown: [],
         options_hometown:[
         {
-          value: '广东省',
-          label: '广东省',
+          value: '湖北省',
+          label: '湖北省',
           children: [
           {
-            value: '中山市',
-            label: '中山市',
+            value: '荆门市',
+            label: '荆门市',
           },
           {
-            value: '湛江市',
-            label: '湛江市',
+            value: '武汉市',
+            label: '武汉市',
           },
           {
-            value: '广州市',
-            label: '广州市',
+            value: '荆州市',
+            label: '荆州市',
           },]
         },
         {

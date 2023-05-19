@@ -3,38 +3,6 @@
     <!-- echart中国地图 -->
     <div id="china_map"></div>
 
-    <!-- 下方是公告页面 -->
-    <!-- <el-card class="card">
-      <div slot="header">
-        <span>最新公告</span>
-      </div>
-      <el-table
-        :data="tableData"
-        border
-        style="width: 100%">
-        <el-table-column
-          prop="title"
-          label="公告标题">
-        </el-table-column>
-        <el-table-column
-          prop="publisher"
-          label="发布者"
-          width="180">
-        </el-table-column>
-        <el-table-column
-          prop="date"
-          label="发布时间"
-          width="180">
-        </el-table-column>
-        <el-table-column
-          label="操作"
-          width="180">
-          <template slot-scope="scope">
-            <el-button @click="handleClick(scope)" type="primary" size="mini">查看详情</el-button>
-          </template>
-        </el-table-column>
-      </el-table>
-    </el-card> -->
   </div>
 </template>
 

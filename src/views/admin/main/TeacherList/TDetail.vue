@@ -161,58 +161,58 @@ import loginAPI from '../../../../api/loginAPI'
 export default {
   data() {
     return {
-    options_hometown:[
-    {
-        value: '广东省',
-        label: '广东省',
-        children: [
+      options_hometown:[
         {
-        value: '中山市',
-        label: '中山市',
+          value: '湖北省',
+          label: '湖北省',
+          children: [
+          {
+            value: '荆门市',
+            label: '荆门市',
+          },
+          {
+            value: '武汉市',
+            label: '武汉市',
+          },
+          {
+            value: '荆州市',
+            label: '荆州市',
+          },]
         },
         {
-        value: '湛江市',
-        label: '湛江市',
+          value: '广西省',
+          label: '广西省',
+          children: [
+          {
+            value: '南宁市',
+            label: '南宁市',
+          },
+          {
+            value: '柳州市',
+            label: '柳州市',
+          },
+          {
+            value: '桂林市',
+            label: '桂林市',
+          },]
         },
         {
-        value: '广州市',
-        label: '广州市',
-        },]
-    },
-    {
-        value: '广西省',
-        label: '广西省',
-        children: [
-        {
-        value: '南宁市',
-        label: '南宁市',
-        },
-        {
-        value: '柳州市',
-        label: '柳州市',
-        },
-        {
-        value: '桂林市',
-        label: '桂林市',
-        },]
-    },
-    {
-        value: '云南省',
-        label: '云南省',
-        children: [
-        {
-        value: '昆明市',
-        label: '昆明市',
-        },
-        {
-        value: '玉溪市',
-        label: '玉溪市',
-        },
-        {
-        value: '丽江市',
-        label: '丽江市',
-        },]
-    },],
+          value: '云南省',
+          label: '云南省',
+          children: [
+          {
+            value: '昆明市',
+            label: '昆明市',
+          },
+          {
+            value: '玉溪市',
+            label: '玉溪市',
+          },
+          {
+            value: '丽江市',
+            label: '丽江市',
+          },]
+        },],
       form: {
         username: '',
         teacherID: '',
